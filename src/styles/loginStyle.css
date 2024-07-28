@@ -1,0 +1,111 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+	height: 65px;
+	background-image: url("pics/logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.login {
+	box-sizing: border-box;
+	margin: auto;
+	width: 400px;
+	height: auto;
+	padding: 20px;
+}
+
+.login-label {
+	box-sizing: border-box;
+	width: 100%;
+	border-style: none;
+	border-radius: 2px;
+	margin: 10px auto 20px;
+ 	padding: 0 10px;
+	height: 40px;
+	font-size: 25px;
+	color: #0000007d;
+	background-color: #2155bc3b;
+
+}
+.fields {
+	margin: 50px auto 0;
+}
+.button {
+	border-style: none;
+	padding: 10px;
+	background-color: #2156be;
+	font-size: 20px;
+	border-radius: 15px;
+	color: white;
+	width: 100%;
+	margin: 10px auto 0;
+}
+/*Napis na gorze*/
+.communicat p {
+	font-size: 40px;
+	font-weight: 700;
+}
+.communicat h4 {
+	font-weight: 500;
+}
+.communicat {
+	text-align: center;
+}
+
+/*Linia lub*/
+.separator {
+	margin: 50px 0 20px;
+}
+.line {
+	border-top: 1px solid #0000004d;
+  }
+.animated.sign {
+	text-align: center;
+	position: relative;
+	top: -10px;
+	background-color: white;
+	width: 50px;
+	margin: 0 auto;
+	animation: 1s slide-from-left;
+}
+.down-note {
+	margin: 50px 10px;
+	text-align: center;
+}
+footer {
+	box-sizing: border-box;
+	height: 70px;
+	border-top: 2px solid #ccc;
+	padding: 25px;
+	font-size: 70%;
+}
+
+
+/*Animacje*/
+
+@keyframes slide-from-left {
+	0% {
+		left: -35%;
+		color: transparent;
+	}
+	100% {
+		left: 0;
+		color: black;
+	}
+}
+
+@media (max-width: 600px) {
+	.logo {
+		width: 270px;
+		margin: auto;
+	}
+	.login {	
+		width: 100%;
+	}
+}

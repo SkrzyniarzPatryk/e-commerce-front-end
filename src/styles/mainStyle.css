@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container--content {
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.container--full {
+    width: 100%;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+}
+/*Listy u góry hedera*/
+.header-lists {
+    display: flex;
+    justify-content: space-between;
+}
+.header-list {
+    list-style: none;
+}
+.header-list li {
+    display: inline-block;
+    line-height: 2;
+    font-size: 12px;
+}
+.header-list--left li {
+    padding: 0 10px 0 0;
+}
+.header-list--right li {
+    padding: 0 0 0 10px;
+}
+
+/*listwa na dole hedera z wyszukiwarka*/
+
+.header-mbar {
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+.header-logo img {
+    height: 50px;
+}
+.header-search__input input {
+    width: 100%;
+}
+
+.header-search div {
+    width: 79%;
+    float: left;
+    margin-right: 1%;
+}
+.header-search input[type="submit"] {
+    width: 20%;
+    float: left;
+}
+.header-search {
+    flex-basis: 60%;
+}
+.header-category {
+    position: relative;
+    margin-right: 30px;
+}
+.header-category .fa-solid.fa-angle-down {
+    position: absolute;
+    top: 12px;
+    right: -20px;
+}
+
+.container--content.header-mbar input {
+    height: 40px;
+}
+.container--content.header-mbar input::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 10px;
+    width: 10px;
+}
