@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 <body>
     <header>
-        <div class="container--full border-bottom ">
+        <div class="border-bottom container--full">
             <div class="container--content header-lists">
                 <ul class="header-list header-list--left">
                     <li class="header-greating">Witaj! <a href="login.html">Zaloguj się</a> lub <a href="login.html">Zarejestruj</a>!</li>
@@ -25,9 +25,9 @@
                 </ul>
             </div>
         </div>
-        <div class="container--content header-mbar">
+        <div class="header-mbar container--content">
             <div class="header-logo">
-                <a href="#"><img src="pics/logo.png" alt="logo strony"></a>
+                <a href="#"><img src="../pics/logo.png" alt="logo strony"></a>
             </div>
             <div class="header-category">
                 <p>Wszystkie<br>kategorie</p>
@@ -36,14 +36,27 @@
             <div class="header-search">
                 <form action="">
                     <div class="header-search__input">
-                        <input type="text">
+                        <input type="text" placeholder="Wyszukaj coś">
                     </div>
                     <input type="submit" value="Wyszukaj">
                 </form>
             </div>
         </div>
     </header>
-    <main>main</main>
+    <main>
+        <div class="main-slider container--full">
+            <div class="main-slider--prev"><i class="fa-solid fa-angle-down"></i></div>
+            <ul class="main-slider_slides">
+                <li class="main-slider_slide" style="background-image: url(../pics/slide-1.jpg)";>
+                    <h1 class="main-slider">Rób zakupy wygodnie z fotela</h1>
+                    <a href="#" class="main-slider_action-button"></a>
+                </li>
+                <li class="main-slider_slide"></li>
+                <li class="main-slider_slide"></li>
+            </ul>
+            <div class="main-slider--next"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+    </main>
     <footer>stopka</footer>
 </body>
 </html>
