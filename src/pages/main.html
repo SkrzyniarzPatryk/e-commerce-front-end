@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="../styles/mainStyle.css">
+<link rel="stylesheet" href="../styles/footerStyle.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 <body>
     <header>
@@ -48,8 +49,11 @@
             <div class="main-slider--prev"><i class="fa-solid fa-angle-down"></i></div>
             <ul class="main-slider_slides">
                 <li class="main-slider_slide" style="background-image: url(../pics/slide-1.jpg)";>
-                    <h1 class="main-slider">Rób zakupy wygodnie z fotela</h1>
-                    <a href="#" class="main-slider_action-button"></a>
+                    <div class="main-slider_slide-detail">
+                        <h1 class="main-slider_slide-text-h">Rób zakupy wygodnie z fotela</h1>
+                        <h3 class="main-slider_slide-text-hhh">Z naszym programem CHOSE wysyłki są za 0 monet</h3>
+                        <a href="#" class="main-slider_action-button">Sprawdz szczegóły</a>
+                    </div>
                 </li>
                 <li class="main-slider_slide"></li>
                 <li class="main-slider_slide"></li>
@@ -57,6 +61,74 @@
             <div class="main-slider--next"><i class="fa-solid fa-angle-down"></i></div>
         </div>
     </main>
-    <footer>stopka</footer>
+    <footer class="footer container--full">
+        <div class="footer__container">
+            <div class="footer__links-centrum">
+                <div class="footer__section">
+                    <h3 class="footer__section-title">Kup</h3>
+                    <ul class="footer__section-list">
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Poradnik kupującego</a>
+                        </li>
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Dostawa i płatność</a>
+                        </li>
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Rodzaje ofert</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__section-title">Sprzedaj</h3>
+                    <ul class="footer__section-list">
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Poradnik sprzedającego</a>
+                        </li>
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Dołączenie do programu Optimum</a>
+                        </li>
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Wystaw ofertę</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__section-title">Kontakt</h3>
+                    <ul class="footer__section-list">
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">email</a>
+                        </li>
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">adres</a>
+                        </li>
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Formularz kontaktowy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__section-title">Społeczność</h3>
+                    <ul class="footer__section-list">
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Aktualności</a>
+                        </li>
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Blog</a>
+                        </li>
+                        <li class="footer__section-li-link">
+                            <a href="#" class="footer__section-link">Forum dla klientów</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fotoer__settings">
+                <label for="">Język strony</label>
+                <select name="" id="">
+                    <option value="pl">Polski</option>
+                    <option value="pl">Angielski</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

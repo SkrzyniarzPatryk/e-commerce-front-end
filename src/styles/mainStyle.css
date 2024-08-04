@@ -145,14 +145,50 @@ html {
 .main-slider_slides {
     height: 100%;
     width: 300%;
+    list-style: none;
 }
 .main-slider_slide {
     float: left;
     width: calc(100%/3);
     height: 300px;
+    padding: 0 150px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
+/* Text i przycisk w slajdzie */
+.main-slider_slide-detail {
+    display: block;
+    position: absolute;
+    height: 300px;
+    /* width: 700px; */
+    padding: 80px 100px;
+    background-color: #00000091;
+}
+.main-slider_slide-text-h {
+    font-size: 40px;
+    color: #fff;
+}
+.main-slider_slide-text-hhh {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+.main-slider_action-button {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 20px 0;
+    border: 1px solid #2156be;
+    border-radius: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: #000;
+    background-color: #ffffff94;
+    transition: .3s linear;
+}
+.main-slider_action-button:hover {
+    background-color: #2156be;
+    color: #fff;
+}
