@@ -1,0 +1,73 @@
+.product-list__a {
+    text-decoration: none;
+    color: black;
+}
+.product-list__a:hover .product-container__product-title {
+    color: #17B890;
+}
+
+.product-list__products-container {
+    display: inline-flex;
+}
+
+.product-list__product-container {
+    margin: 0 20px;
+    width: 160px;
+}
+.product-container__description-content > * {
+    margin-top: 4px;
+}
+
+.product-container__image-content img {
+    width:160px;
+}
+/* price old new */
+.product-container__price-content {
+    display: flex;
+    font-style: italic;
+}
+.product-container__price--new {
+ 
+}
+.product-container__price--old {
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: #343633
+}
+
+/* OPTIMUM sign */
+.product-container__optimum-content {
+    display:flex;
+    color: #00a2e8;
+}
+.product-container__optimum-content * {
+    align-content: center;
+    font-size: 12px;
+    font-weight: 900;
+    
+}
+.product-container__optimum-content img {
+    margin: 0 0 0 10px;
+    width: 25px;
+}
+
+/* Description */
+.product-container__parcel-info {
+    color: green;
+    font-size: 12px;
+}
+
+/* DRAGABLE SLIDER */
+.draggable-slider {
+    position: relative;
+    width: 1000px;
+    /* height: auto; */
+    overflow: hidden;
+}
+
+.draggable-slider__inner {
+    position: relative;
+    left: 0px;
+    /* width:100%; */
+    /* height:100%; */
+}

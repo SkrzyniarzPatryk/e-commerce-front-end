@@ -3,4 +3,47 @@
     border-top: 1px solid black;
     margin-top: 20px;
     background-color: #eee;
+    font-size:12px;
+}
+.footer__container {
+    max-width: 1200px;
+    margin: 80px auto;
+}
+.footer__links-centrum {
+    display: flex;
+}
+.footer__section {
+    flex: 1;
+}
+.footer__section-title {
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+.footer__section-list {
+    list-style: none;
+}
+.footer__section-link {
+    color: gray;
+    text-decoration: none;
+}
+.footer__section-link:hover {
+    text-decoration: underline;
+}
+.footer__section-li-link {
+    margin: 4px 0;
+    font-size: 12px;
+}
+
+/* Setting */
+.footer__lan-select {
+    padding: 4px 8px;
+    border-radius: 0;
+    border-style: none;
+    border: 1px solid black;
+}
+
+.footer__settings {
+    margin: 40px 0;
+    display: flex;
+    justify-content: right;
 }
