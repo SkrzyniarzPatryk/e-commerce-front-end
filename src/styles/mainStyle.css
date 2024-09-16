@@ -8,7 +8,10 @@ html {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 
 }
-
+.container--small-content {
+    width: 1000px;
+    margin: 0 auto;
+}
 .container--content {
     width: 1158px;
     margin: 0 auto;

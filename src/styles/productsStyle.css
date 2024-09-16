@@ -1,9 +1,14 @@
+/* General */
 .product-list__a {
     text-decoration: none;
     color: black;
 }
 .product-list__a:hover .product-container__product-title {
     color: #17B890;
+}
+
+.product-list__header {
+    margin: 20px 0;    
 }
 
 .product-list__products-container {
